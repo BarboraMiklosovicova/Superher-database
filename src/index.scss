@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+#root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: inherit;
+  color: palevioletred;
+}
+
+@media (prefers-color-scheme: light) {
+  a:hover {
+    border-bottom: 1px palevioletred solid;
+  }
+}
+
+nav {
+  border-bottom: 1px solid palevioletred;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-inline-start: 5px;
+}
+
+li {
+  display: inline;
+}
+
+input {
+  width: 100px;
+  border: white;
+}
+::placeholder {
+  color: lightgray;
+  font-size: 10px;
+}
+.home-container {
+  margin: auto;
+  width: 70%;
+  text-align: center;
+}
+p {
+  font-size: 12px;
+}
+
+#myImage {
+  width: 350px;
+  height: 200px;
+  padding: 5px;
+}
